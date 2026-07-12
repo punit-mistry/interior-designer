@@ -22,7 +22,7 @@ export default function JsonLD({
   if (!location || !service) return null;
 
   const faqs = getServiceFAQs(serviceSlug, location.name);
-  const siteUrl = "https://bhumimistry.in";
+  const siteUrl = "https://bhumi-mistry.vercel.app";
 
   const schemas = [
     organizationSchema(),

@@ -2,7 +2,7 @@ import { Location } from "./locations";
 import { Service } from "./services";
 import { FAQ } from "./faqs";
 
-const SITE_URL = "https://bhumimistry.in";
+const SITE_URL = "https://bhumi-mistry.vercel.app";
 const BUSINESS_NAME = "Bhumi Mistry Interiors";
 const BUSINESS_PHONE = "+917738437601";
 const BUSINESS_EMAIL = "studio@bhumimistry.in";

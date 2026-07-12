@@ -62,14 +62,14 @@ src/
 
 - **Phone:** +91 77384 37601
 - **WhatsApp:** 917738437601
-- **Site:** https://bhumimistry.in
+- **Site:** https://bhumi-mistry.vercel.app
 - **Email:** studio@bhumimistry.in
 
 ## Environment Variables
 
 | Variable | Description |
 |----------|-------------|
-| `NEXT_PUBLIC_SITE_URL` | Site URL (default: https://bhumimistry.in) |
+| `NEXT_PUBLIC_SITE_URL` | Site URL (default: https://bhumi-mistry.vercel.app) |
 
 ## License
 

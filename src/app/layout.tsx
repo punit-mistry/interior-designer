@@ -5,7 +5,7 @@ import "./globals.css";
 import OrganizationSchema from "@/components/seo/OrganizationSchema";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
-const SITE_URL = "https://bhumimistry.in";
+const SITE_URL = "https://bhumi-mistry.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
