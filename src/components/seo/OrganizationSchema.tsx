@@ -12,7 +12,7 @@ const schema = {
   contactPoint: [
     {
       "@type": "ContactPoint",
-      telephone: "+917738437601",
+      telephone: "+917977653450",
       contactType: "customer service",
       email: "studio@bhumimistry.in",
       availableLanguage: ["English", "Hindi", "Gujarati"],

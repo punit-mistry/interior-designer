@@ -83,12 +83,12 @@ export default function Contact() {
             <a data-cursor="Write" href="mailto:studio@bhumimistry.in" className="block w-fit border-b border-gold/50 pb-1 text-lg transition-colors hover:text-gold">
               studio@bhumimistry.in
             </a>
-            <a data-cursor="Call" href="tel:+917738437601" className="block w-fit border-b border-gold/50 pb-1 text-lg transition-colors hover:text-gold">
-              +91 77384 37601
+            <a data-cursor="Call" href="tel:+917977653450" className="block w-fit border-b border-gold/50 pb-1 text-lg transition-colors hover:text-gold">
+              +91 79776 53450
             </a>
             <a
               data-cursor="WhatsApp"
-              href="https://wa.me/917738437601?text=Hi!%20I'd%20like%20to%20discuss%20interior%20design%20for%20my%20home."
+              href="https://wa.me/917977653450?text=Hi!%20I'd%20like%20to%20discuss%20interior%20design%20for%20my%20home."
               target="_blank"
               rel="noopener noreferrer"
               className="flex w-fit items-center gap-2 border-b border-green-500/50 pb-1 text-lg text-green-400 transition-colors hover:text-green-300"

@@ -159,10 +159,10 @@ export default function SEOPage({ params }: Props) {
               One conversation is all it takes. Tell us about your space, and we&rsquo;ll tell you what it could become.
             </p>
             <div className="mt-10 flex flex-col items-center gap-4 md:flex-row md:justify-center">
-              <a href="tel:+917738437601" className="border border-gold px-10 py-4 text-sm uppercase tracking-widest text-gold transition-colors hover:bg-gold hover:text-charcoal">
-                Call +91 77384 37601
+              <a href="tel:+917977653450" className="border border-gold px-10 py-4 text-sm uppercase tracking-widest text-gold transition-colors hover:bg-gold hover:text-charcoal">
+                Call +91 79776 53450
               </a>
-              <a href="https://wa.me/917738437601?text=Hi!%20I'd%20like%20to%20discuss%20interior%20design%20for%20my%20home." target="_blank" rel="noopener noreferrer" className="border border-[#25D366] px-10 py-4 text-sm uppercase tracking-widest text-[#25D366] transition-colors hover:bg-[#25D366] hover:text-white">
+              <a href="https://wa.me/917977653450?text=Hi!%20I'd%20like%20to%20discuss%20interior%20design%20for%20my%20home." target="_blank" rel="noopener noreferrer" className="border border-[#25D366] px-10 py-4 text-sm uppercase tracking-widest text-[#25D366] transition-colors hover:bg-[#25D366] hover:text-white">
                 WhatsApp Us
               </a>
               <a href="mailto:studio@bhumimistry.in" className="px-10 py-4 text-sm uppercase tracking-widest text-ivory/60 transition-colors hover:text-gold">

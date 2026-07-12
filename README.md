@@ -60,8 +60,8 @@ src/
 
 ## Key Configuration
 
-- **Phone:** +91 77384 37601
-- **WhatsApp:** 917738437601
+- **Phone:** +91 79776 53450
+- **WhatsApp:** 917977653450
 - **Site:** https://bhumi-mistry.vercel.app
 - **Email:** studio@bhumimistry.in
 
