@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ivory: #f6f1e8;
+  --beige: #e8dfd0;
+  --walnut: #5c4633;
+  --terracotta: #b65e3c;
+  --stone: #8c8578;
+  --charcoal: #1c1917;
+  --gold: #c2a26b;
+  --font-display: "Fraunces Variable", serif;
+  --font-body: "Manrope Variable", sans-serif;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  background: var(--ivory);
+  color: var(--charcoal);
+  font-family: var(--font-body, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--terracotta);
+  color: var(--ivory);
+}
+
+/* Indian jali pattern overlay */
+.jali-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 38px, rgba(194,162,107,0.06) 38px, rgba(194,162,107,0.06) 40px),
+    repeating-linear-gradient(90deg, transparent, transparent 38px, rgba(194,162,107,0.06) 38px, rgba(194,162,107,0.06) 40px);
+}
+.jali-overlay-soft::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 58px, rgba(45,43,85,0.04) 58px, rgba(45,43,85,0.04) 60px),
+    repeating-linear-gradient(90deg, transparent, transparent 58px, rgba(45,43,85,0.04) 58px, rgba(45,43,85,0.04) 60px);
+}
+
+/* Indian motif border */
+.motif-border {
+  position: relative;
+}
+.motif-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: repeating-linear-gradient(90deg,
+    var(--gold) 0, var(--gold) 4px,
+    transparent 4px, transparent 8px,
+    var(--terracotta) 8px, var(--terracotta) 12px,
+    transparent 12px, transparent 16px
+  );
+}
+
+/* film grain overlay */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: -100%;
+  pointer-events: none;
+  z-index: 90;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: grain 7s steps(8) infinite;
+}
+@keyframes grain {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(3%, -4%); }
+  50% { transform: translate(-4%, 3%); }
+  75% { transform: translate(4%, 4%); }
+}
+
+/* editorial display type */
+.display {
+  font-family: var(--font-display, serif);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+}
+
+.eyebrow {
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--stone);
+}
+
+/* split-text reveal */
+.line-mask {
+  display: block;
+  overflow: hidden;
+}
+.line-mask > span {
+  display: block;
+  transform: translateY(110%);
+}
+
+/* custom cursor */
+@media (pointer: fine) {
+  body { cursor: none; }
+  a, button, [data-cursor] { cursor: none; }
+}
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 100;
+  border-radius: 999px;
+  will-change: transform;
+}
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--charcoal);
+}
+.cursor-ring {
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(28, 25, 23, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.55rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  transition: width 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    height 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 0.35s, border-color 0.35s;
+}
+.cursor-ring.is-label {
+  width: 84px;
+  height: 84px;
+  background: rgba(28, 25, 23, 0.88);
+  border-color: transparent;
+  backdrop-filter: blur(4px);
+}
+@media (pointer: coarse) {
+  .cursor-dot, .cursor-ring { display: none; }
+}
+
+/* marquee */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 32s linear infinite;
+}
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+
+/* before/after slider handle */
+.ba-handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--ivory);
+  z-index: 3;
+}
+.ba-handle::after {
+  content: "◂ ▸";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  background: var(--ivory);
+  color: var(--charcoal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grain::after { animation: none; }
+  .marquee-track { animation: none; }
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
