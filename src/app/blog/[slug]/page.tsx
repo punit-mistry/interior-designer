@@ -5,6 +5,7 @@ const POSTS = [
   {
     slug: "small-apartment-interior-design-mumbai",
     title: "Making 650 sq ft Feel Like a Palace",
+    excerpt: "How we transformed a cramped Mumbai 1BHK into a light-filled home with layered storage, reflective surfaces, and space-multiplying tricks.",
     content: `Mumbai real estate comes with a built-in constraint: space is never abundant. But constraint is not a limitation — it is a brief. Over the years we have designed seventeen sub-700 sq-ft apartments, and each one taught us something new about how to make small feel vast.
 
 ## Start with Light
@@ -28,6 +29,7 @@ Every piece of furniture in a small home should earn its square footage. A windo
   {
     slug: "choosing-wood-finishes-for-indian-homes",
     title: "The Right Wood Finish for Every Indian Climate",
+    excerpt: "From coastal humidity to desert heat — a practical guide to choosing wood veneers, laminates, and treatments that last.",
     content: `India is not one climate — it is several. And the wood finish that survives ten years in Pune may peel in Goa within a single monsoon. Here is what we specify for each region.
 
 ## Coastal Homes (Mumbai, Goa, Kochi)
@@ -51,6 +53,7 @@ There is no one-size-fits-all wood finish. Ask your contractor where the plywood
   {
     slug: "vastu-alternative-approach",
     title: "Vastu Without Superstition — What Actually Works",
+    excerpt: "We break down the spatial logic behind Vastu principles and show how to design homes that feel right without rigid rules.",
     content: `Vastu Shastra is 5,000 years old. Some of it is brilliant spatial logic. Some of it is outdated dogma. Our approach is to keep what works and leave what doesn't.
 
 ## What Makes Sense
@@ -70,6 +73,7 @@ If a Vastu rule improves natural light, ventilation, or flow, we follow it. If i
   {
     slug: "modular-kitchen-cost-guide-2026",
     title: "Modular Kitchen Budget Guide for 2026",
+    excerpt: "Transparent pricing for laminate, acrylic, and solid wood kitchens — with real project costs from our Pune and Ahmedabad studios.",
     content: `A kitchen renovation is the highest-ROI improvement you can make to an Indian home. But the price range is enormous — here is what different budgets actually buy.
 
 ## Budget: ₹1.5–2.5 lakh (Laminate)
@@ -93,6 +97,7 @@ Never cut corners on the carcass. You can upgrade the shutters later, but bad pl
   {
     slug: "layered-lighting-guide",
     title: "The Art of Layered Light: Ambient, Task & Accent",
+    excerpt: "Good lighting is the difference between a room that works and a room that feels. Here is how we light every space.",
     content: `The single biggest mistake we see in Indian homes is one ceiling light per room. It flattens the space, casts harsh shadows, and makes everything look clinical.
 
 ## Ambient Light
@@ -116,6 +121,7 @@ Every room needs all three. Living room: cove (ambient) + floor lamp (task) + pi
   {
     slug: "indoor-outdoor-living-indian-homes",
     title: "Bringing the Outside In — Indoor-Outdoor Living for India",
+    excerpt: "Courtyards, verandahs, and how modern Indian homes are blurring the line between interior and exterior spaces.",
     content: `The Indian climate does not cooperate with floor-to-ceiling glass walls. Dust, heat, and monsoon make the indoor-outdoor ideal complicated. But not impossible.
 
 ## The Verandah Strategy
