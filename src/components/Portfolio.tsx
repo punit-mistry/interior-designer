@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Lightbox from "./Lightbox";
 
 if (typeof window !== "undefined") gsap.registerPlugin(ScrollTrigger);
 
@@ -20,6 +21,7 @@ const PROJECTS = [
  */
 export default function Portfolio() {
   const rootRef = useRef<HTMLElement>(null);
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -67,12 +69,12 @@ export default function Portfolio() {
       </div>
 
       <div className="mt-16 columns-1 gap-6 sm:columns-2 [column-fill:balance]">
-        {PROJECTS.map((p) => (
-          <a
+        {PROJECTS.map((p, i) => (
+          <button
             key={p.title}
-            href="#contact"
+            onClick={() => setLightboxIndex(i)}
             data-cursor="Open"
-            className="pf-item group mb-6 block break-inside-avoid overflow-hidden rounded-sm"
+            className="pf-item group mb-6 block w-full break-inside-avoid overflow-hidden rounded-sm text-left"
           >
             <div className={`relative overflow-hidden ${p.tall ? "aspect-[4/5]" : "aspect-[16/11]"}`}>
               <img
@@ -92,9 +94,10 @@ export default function Portfolio() {
               </h3>
               <span className="eyebrow">View →</span>
             </div>
-          </a>
+          </button>
         ))}
       </div>
+      <Lightbox index={lightboxIndex} onClose={() => setLightboxIndex(null)} />
     </section>
   );
 }

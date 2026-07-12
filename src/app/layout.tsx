@@ -2,10 +2,13 @@ import type { Metadata } from "next";
 import "@fontsource-variable/fraunces";
 import "@fontsource-variable/manrope";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import OrganizationSchema from "@/components/seo/OrganizationSchema";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Cursor from "@/components/Cursor";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
 
 const SITE_URL = "https://bhumi-mistry.vercel.app";
 
@@ -48,11 +51,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="grain">
+        <Analytics />
         <OrganizationSchema />
         <Cursor />
         <Navbar />
+        <BackToTop />
         <WhatsAppButton />
         {children}
+        <Footer />
       </body>
     </html>
   );

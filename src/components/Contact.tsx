@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ContactForm from "./ContactForm";
 
 if (typeof window !== "undefined") gsap.registerPlugin(ScrollTrigger);
 
@@ -79,7 +80,12 @@ export default function Contact() {
             <span className="italic">आपका घर, हमारी कला</span>
             <span className="text-ivory/30">— your home, our craft</span>
           </div>
-          <div className="mt-12 space-y-4 text-sm">
+          <div className="mt-12">
+            <div className="mb-10">
+              <p className="eyebrow !text-ivory/40">Or send a quick message</p>
+              <ContactForm />
+            </div>
+            <div className="space-y-4 text-sm">
             <a data-cursor="Write" href="mailto:studio@bhumimistry.in" className="block w-fit border-b border-gold/50 pb-1 text-lg transition-colors hover:text-gold">
               studio@bhumimistry.in
             </a>
@@ -98,7 +104,8 @@ export default function Contact() {
             </a>
             <p className="pt-4 text-ivory/50">Ahmedabad · Mumbai · Pune · Surat</p>
           </div>
-        </div>
+          </div>
+          </div>
 
         <div className="ct-house relative aspect-[16/10] overflow-hidden rounded-sm will-change-transform">
           <img src="/assets/image-5.png" alt="Modern villa at dusk with reflecting pool" className="absolute inset-0 h-full w-full object-cover" />
@@ -110,14 +117,9 @@ export default function Contact() {
         </div>
       </div>
 
-      <footer className="relative z-10 mt-24 flex flex-wrap items-end justify-between gap-6 border-t border-ivory/10 pt-8">
-        <div>
-          <p className="display text-2xl">Bhumi Mistry</p>
-          <p className="mt-1 text-xs text-saffron/50">भूमि मistry — Interior Design Studio</p>
-        </div>
-        <p className="eyebrow">Rooted in Indian Craft · Est. 2017 · India</p>
-        <p className="text-xs text-ivory/40">© 2026 Bhumi Mistry. All rights reserved.</p>
-      </footer>
+      <div className="relative z-10 mt-24 border-t border-ivory/10 pt-8 text-xs text-ivory/30">
+        <p>© {new Date().getFullYear()} Bhumi Mistry Interiors. All rights reserved.</p>
+      </div>
     </section>
   );
 }
