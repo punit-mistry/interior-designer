@@ -190,7 +190,11 @@ export function generateMetadata({
   return {
     title: post.title,
     description: post.excerpt ?? `Read about ${post.title} from Bhumi Mistry Interiors.`,
-    openGraph: { title: `${post.title} | Bhumi Mistry Interiors` },
+    openGraph: {
+      title: `${post.title} | Bhumi Mistry Interiors`,
+      images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    },
+    twitter: { card: "summary_large_image", images: "/og-image.png" },
   };
 }
 
