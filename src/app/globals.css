@@ -129,14 +129,15 @@ body {
   will-change: transform;
 }
 .cursor-dot {
-  width: 6px;
-  height: 6px;
-  background: var(--charcoal);
+  width: 8px;
+  height: 8px;
+  background: var(--gold);
+  box-shadow: 0 0 6px rgba(194, 162, 107, 0.5);
 }
 .cursor-ring {
   width: 44px;
   height: 44px;
-  border: 1px solid rgba(28, 25, 23, 0.4);
+  border: 1.5px solid var(--gold);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,8 +152,8 @@ body {
 .cursor-ring.is-label {
   width: 84px;
   height: 84px;
-  background: rgba(28, 25, 23, 0.88);
-  border-color: transparent;
+  background: rgba(28, 25, 23, 0.9);
+  border-color: var(--gold);
   backdrop-filter: blur(4px);
 }
 @media (pointer: coarse) {

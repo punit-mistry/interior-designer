@@ -4,6 +4,7 @@ import "@fontsource-variable/manrope";
 import "./globals.css";
 import OrganizationSchema from "@/components/seo/OrganizationSchema";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Cursor from "@/components/Cursor";
 
 const SITE_URL = "https://bhumi-mistry.vercel.app";
 
@@ -47,6 +48,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="grain">
         <OrganizationSchema />
+        <Cursor />
         <WhatsAppButton />
         {children}
       </body>

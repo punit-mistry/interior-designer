@@ -1,5 +1,4 @@
 import SmoothScroll from "@/components/SmoothScroll";
-import Cursor from "@/components/Cursor";
 import Preloader from "@/components/Preloader";
 import Hero from "@/components/Hero";
 import Transformation from "@/components/Transformation";
@@ -18,7 +17,6 @@ export default function Home() {
   return (
     <SmoothScroll>
       <Preloader />
-      <Cursor />
       <main>
         <Hero />
         <Transformation />
