@@ -23,6 +23,7 @@ export default function Hero() {
   return (
     <section
       ref={rootRef}
+      id="top"
       className="relative h-[100svh] overflow-hidden bg-charcoal jali-overlay"
       aria-label="Introduction"
     >

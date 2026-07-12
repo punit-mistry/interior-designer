@@ -52,7 +52,7 @@ export default function Portfolio() {
   }, []);
 
   return (
-    <section ref={rootRef} className="bg-ivory px-6 py-28 md:px-16 md:py-40" aria-label="Selected projects">
+    <section id="portfolio" ref={rootRef} className="bg-ivory px-6 py-28 md:px-16 md:py-40" aria-label="Selected projects">
       <div className="flex flex-wrap items-end justify-between gap-6">
         <div>
           <p className="eyebrow">Selected Work</p>

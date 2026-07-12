@@ -74,7 +74,7 @@ export default function Process() {
   }, []);
 
   return (
-    <section ref={rootRef} className="bg-beige px-6 py-28 md:px-16 md:py-40" aria-label="Process and studio numbers">
+    <section id="process" ref={rootRef} className="bg-beige px-6 py-28 md:px-16 md:py-40" aria-label="Process and studio numbers">
       <p className="eyebrow">How a Home Happens</p>
       <h2 className="display mt-4 max-w-3xl text-4xl md:text-6xl">
         Eight steps. <span className="italic text-walnut">Zero surprises.</span>
