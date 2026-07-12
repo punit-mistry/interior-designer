@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import ShareButtons from "./ShareButtons";
 
 const POSTS = [
   {
@@ -10,7 +11,7 @@ const POSTS = [
 
 ## Start with Light
 
-The first thing we do in any small apartment is strip away the visual blockers. Heavy drapery, dark wall paints, cluttered window frames — all of it has to go. We replace solid doors with flush shutters or sliding panels in warm white oak. Kitchen cabinets go matte white or pale sage. The idea is that your eye should travel through the room without hitting a dark patch.
+The first thing we do in any [small apartment](/interior-designer/mumbai) is strip away the visual blockers. Heavy drapery, dark wall paints, cluttered window frames — all of it has to go. We replace solid doors with flush shutters or sliding panels in warm white oak. Kitchen cabinets go matte white or pale sage. The idea is that your eye should travel through the room without hitting a dark patch.
 
 ## Mirrors, Placed with Intention
 
@@ -22,9 +23,14 @@ Every piece of furniture in a small home should earn its square footage. A windo
 
 ## The Verdict
 
-650 sq ft can feel like 1,200 if you are ruthless about what stays and deliberate about what goes.`,
+650 sq ft can feel like 1,200 if you are ruthless about what stays and deliberate about what goes. Need help with your [2BHK interior in Mumbai](/2bhk-interior/mumbai)? Let's talk.`,
     category: "Small Spaces",
     date: "2026-06-28",
+    links: [
+      { label: "Interior Designer in Mumbai", href: "/interior-designer/mumbai" },
+      { label: "2BHK Interior Design Mumbai", href: "/2bhk-interior/mumbai" },
+      { label: "1BHK Interior Design Mumbai", href: "/1bhk-interior/mumbai" },
+    ],
   },
   {
     slug: "choosing-wood-finishes-for-indian-homes",
@@ -34,7 +40,7 @@ Every piece of furniture in a small home should earn its square footage. A windo
 
 ## Coastal Homes (Mumbai, Goa, Kochi)
 
-Humidity is the enemy. We avoid solid wood for horizontal surfaces and recommend marine-grade plywood with PU (polyurethane) finish for cabinets. For wardrobes, laminate or acrylic sheets outperform veneer every time because they do not absorb moisture.
+Humidity is the enemy. We avoid solid wood for horizontal surfaces and recommend marine-grade plywood with PU (polyurethane) finish for cabinets. For wardrobes, laminate or acrylic sheets outperform veneer every time because they do not absorb moisture. If you are planning [modular kitchen in Mumbai](/modular-kitchen/mumbai), this is critical.
 
 ## Hot & Dry (Ahmedabad, Jaipur, Delhi)
 
@@ -46,9 +52,14 @@ Cold and damp leads to warping. The trick is to condition the wood onsite for at
 
 ## The Bottom Line
 
-There is no one-size-fits-all wood finish. Ask your contractor where the plywood was stored, ask what the humidity is during installation week, and choose your finish based on your city, not your Pinterest board.`,
+There is no one-size-fits-all wood finish. Ask your [interior designer in Pune](/interior-designer/pune) where the plywood was stored, ask what the humidity is during installation week, and choose your finish based on your city, not your Pinterest board.`,
     category: "Materials",
     date: "2026-06-21",
+    links: [
+      { label: "Modular Kitchen Mumbai", href: "/modular-kitchen/mumbai" },
+      { label: "Interior Designer Pune", href: "/interior-designer/pune" },
+      { label: "Wardrobe Design Mumbai", href: "/wardrobe-design/mumbai" },
+    ],
   },
   {
     slug: "vastu-alternative-approach",
@@ -66,9 +77,14 @@ The rule about not having a toilet in the north-east? That comes from an era bef
 
 ## Our Principle
 
-If a Vastu rule improves natural light, ventilation, or flow, we follow it. If it restricts good design, we override it. Homes should feel like homes, not temples.`,
+If a Vastu rule improves natural light, ventilation, or flow, we follow it. If it restricts good design, we override it. Homes should feel like homes, not temples. Whether you are in [Thane](/interior-designer/thane) or [Ahmedabad](/interior-designer/ahmedabad), our [home interior design](/home-interior-design/mumbai) approach stays the same.`,
     category: "Design Philosophy",
     date: "2026-06-14",
+    links: [
+      { label: "Home Interior Design Mumbai", href: "/home-interior-design/mumbai" },
+      { label: "Interior Designer Thane", href: "/interior-designer/thane" },
+      { label: "Interior Designer Ahmedabad", href: "/interior-designer/ahmedabad" },
+    ],
   },
   {
     slug: "modular-kitchen-cost-guide-2026",
@@ -82,7 +98,7 @@ This gets you laminate shutters with BWP (boiling water proof) plywood carcass, 
 
 ## Mid-range: ₹3–5 lakh (Acrylic)
 
-Acrylic finish with soft-close hinges, aluminum frame glass shutters for upper cabinets, quartz countertop, and basic interior accessories (cutlery tray, bottle pull-out). This is the sweet spot for most Mumbai apartments.
+Acrylic finish with soft-close hinges, aluminum frame glass shutters for upper cabinets, quartz countertop, and basic interior accessories (cutlery tray, bottle pull-out). This is the sweet spot for most [Mumbai apartments](/modular-kitchen/mumbai).
 
 ## Premium: ₹6–10 lakh (Solid Wood / PU)
 
@@ -90,9 +106,15 @@ Solid wood or PU finish, full-height shutters, Blum hardware, quartzite or marbl
 
 ## Advice
 
-Never cut corners on the carcass. You can upgrade the shutters later, but bad plywood will warp in two monsoons. Invest in the structure, choose laminate if the budget is tight, and upgrade finishes in phase two.`,
+Never cut corners on the carcass. You can upgrade the shutters later, but bad plywood will warp in two monsoons. Invest in the structure, choose laminate if the budget is tight, and upgrade finishes in phase two. Looking for [modular kitchen in Navi Mumbai](/modular-kitchen/navi-mumbai) or [Pune](/modular-kitchen/pune)? We can help.`,
     category: "Kitchen",
     date: "2026-06-07",
+    links: [
+      { label: "Modular Kitchen Mumbai", href: "/modular-kitchen/mumbai" },
+      { label: "Modular Kitchen Navi Mumbai", href: "/modular-kitchen/navi-mumbai" },
+      { label: "Modular Kitchen Pune", href: "/modular-kitchen/pune" },
+      { label: "Kitchen Interior Design", href: "/kitchen-interior-design/mumbai" },
+    ],
   },
   {
     slug: "layered-lighting-guide",
@@ -114,9 +136,14 @@ This is the drama layer — a picture light over the gallery wall, a floor washe
 
 ## The Rule
 
-Every room needs all three. Living room: cove (ambient) + floor lamp (task) + picture light (accent). Bedroom: indirect ceiling (ambient) + bedside pendants (task) + backlit headboard (accent). Kitchens: ceiling spots (ambient) + under-cabinet strip (task) + glass cabinet interior (accent).`,
+Every room needs all three. Living room: cove (ambient) + floor lamp (task) + picture light (accent). Bedroom: indirect ceiling (ambient) + bedside pendants (task) + backlit headboard (accent). Kitchens: ceiling spots (ambient) + under-cabinet strip (task) + glass cabinet interior (accent). Our [full home interior](/home-interior-design/mumbai) packages always include layered lighting design.`,
     category: "Lighting",
     date: "2026-05-31",
+    links: [
+      { label: "Home Interior Design Mumbai", href: "/home-interior-design/mumbai" },
+      { label: "Living Room Interior Design", href: "/living-room-interior-design/mumbai" },
+      { label: "Bedroom Interior Design", href: "/bedroom-interior-design/mumbai" },
+    ],
   },
   {
     slug: "indoor-outdoor-living-indian-homes",
@@ -134,13 +161,18 @@ A central courtyard is nature's HVAC. Hot air rises and escapes through the open
 
 ## Operable Screens
 
-Instead of fixed glass, we use folding aluminum french doors that open fully to the outside. Paired with a perforated zinc screen, they keep insects out and let air in. In Mumbai, this turns a 400 sq-ft living room into a 700 sq-ft indoor-outdoor space.
+Instead of fixed glass, we use folding aluminum french doors that open fully to the outside. Paired with a perforated zinc screen, they keep insects out and let air in. In Mumbai, this turns a 400 sq-ft living room into a 700 sq-ft indoor-outdoor space. Need an [interior designer in Navi Mumbai](/interior-designer/navi-mumbai) who understands climate-responsive design?
 
 ## Bottom Line
 
-Indoor-outdoor living in India is not about glass walls. It is about shaded thresholds, breezeways, and screens that filter without blocking.`,
+Indoor-outdoor living in India is not about glass walls. It is about shaded thresholds, breezeways, and screens that filter without blocking. Whether you want [architectural interior design](/architectural-interior-design/mumbai) or a simple home makeover, start with a conversation.`,
     category: "Architecture",
     date: "2026-05-24",
+    links: [
+      { label: "Interior Designer Navi Mumbai", href: "/interior-designer/navi-mumbai" },
+      { label: "Architectural Interior Design", href: "/architectural-interior-design/mumbai" },
+      { label: "Home Interior Design", href: "/home-interior-design/mumbai" },
+    ],
   },
 ];
 
@@ -162,11 +194,64 @@ export function generateMetadata({
   };
 }
 
+function renderContent(text: string) {
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const segments: { type: "text" | "link" | "heading"; content: string; href?: string }[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = linkRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      segments.push({ type: "text", content: text.slice(lastIndex, match.index) });
+    }
+    segments.push({ type: "link", content: match[1], href: match[2] });
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) {
+    segments.push({ type: "text", content: text.slice(lastIndex) });
+  }
+  return segments;
+}
+
+function ContentBlock({ text }: { text: string }) {
+  if (text.startsWith("## ")) {
+    return (
+      <h2 className="display mt-12 text-xl text-charcoal md:text-2xl">
+        {text.replace("## ", "")}
+      </h2>
+    );
+  }
+
+  const segments = renderContent(text);
+  if (segments.length === 1 && segments[0].type === "text") {
+    return <p>{text}</p>;
+  }
+
+  return (
+    <p>
+      {segments.map((seg, i) =>
+        seg.type === "link" ? (
+          <Link
+            key={i}
+            href={seg.href!}
+            className="text-gold underline underline-offset-2 transition-colors hover:text-terracotta"
+          >
+            {seg.content}
+          </Link>
+        ) : (
+          <span key={i}>{seg.content}</span>
+        )
+      )}
+    </p>
+  );
+}
+
 export default function BlogPost({ params }: { params: { slug: string } }) {
   const post = POSTS.find((p) => p.slug === params.slug);
   if (!post) return null;
 
   const paragraphs = post.content.split("\n\n");
+  const url = `https://bhumi-mistry.vercel.app/blog/${post.slug}`;
 
   return (
     <main className="bg-ivory px-6 pb-28 pt-32 md:px-16 md:pb-40 md:pt-40">
@@ -193,16 +278,37 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         <h1 className="display mt-6 text-3xl md:text-5xl">{post.title}</h1>
 
         <div className="mt-12 space-y-6 text-base leading-[1.8] text-stone md:text-lg">
-          {paragraphs.map((p, i) => {
-            if (p.startsWith("## ")) {
-              return (
-                <h2 key={i} className="display mt-12 text-xl text-charcoal md:text-2xl">
-                  {p.replace("## ", "")}
-                </h2>
-              );
-            }
-            return <p key={i}>{p}</p>;
-          })}
+          {paragraphs.map((p, i) => (
+            <ContentBlock key={i} text={p} />
+          ))}
+        </div>
+
+        {post.links && post.links.length > 0 && (
+          <div className="mt-16 rounded-sm border border-charcoal/10 bg-ivory p-8">
+            <p className="eyebrow text-terracotta">Related Services</p>
+            <div className="mt-4 flex flex-wrap gap-3">
+              {post.links.map((l) => (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  className="rounded-full border border-gold/30 px-5 py-2 text-xs uppercase tracking-[0.15em] text-gold transition-colors hover:border-gold hover:bg-gold hover:text-charcoal"
+                >
+                  {l.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <ShareButtons url={url} title={post.title} />
+
+        <div className="mt-12 border-t border-charcoal/10 pt-10 text-center">
+          <p className="text-sm text-stone">
+            Ready to transform your home?{" "}
+            <Link href="/#contact" className="text-gold underline underline-offset-2 hover:text-terracotta">
+              Start a conversation
+            </Link>
+          </p>
         </div>
       </article>
     </main>
