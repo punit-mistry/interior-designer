@@ -42,7 +42,7 @@ export default function Navbar() {
       ref={navRef}
       className={`fixed left-0 right-0 top-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-charcoal/95 shadow-lg shadow-black/10 backdrop-blur-md"
+          ? "bg-ivory/60 shadow-lg shadow-black/5 backdrop-blur-2xl"
           : "bg-transparent"
       }`}
     >
@@ -53,7 +53,9 @@ export default function Navbar() {
             e.preventDefault();
             scrollTo("#top");
           }}
-          className="font-display text-xl tracking-tight text-gold transition-colors hover:text-saffron"
+          className={`font-display text-xl tracking-tight transition-colors hover:text-saffron ${
+            scrolled ? "text-charcoal" : "text-gold"
+          }`}
         >
           Bhumi Mistry
         </a>
@@ -67,7 +69,9 @@ export default function Navbar() {
                 e.preventDefault();
                 scrollTo(link.href);
               }}
-              className="font-body text-xs uppercase tracking-[0.25em] text-ivory/70 transition-colors hover:text-gold"
+              className={`font-body text-xs uppercase tracking-[0.25em] transition-colors hover:text-gold ${
+                scrolled ? "text-charcoal/70" : "text-ivory/70"
+              }`}
             >
               {link.label}
             </a>
@@ -76,7 +80,11 @@ export default function Navbar() {
             href="https://wa.me/917977653450?text=Hi!%20I'd%20like%20to%20discuss%20interior%20design%20for%20my%20home."
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-gold px-6 py-2.5 font-body text-xs uppercase tracking-[0.2em] text-gold transition-colors hover:bg-gold hover:text-charcoal"
+            className={`border px-6 py-2.5 font-body text-xs uppercase tracking-[0.2em] transition-colors hover:bg-gold hover:text-charcoal ${
+              scrolled
+                ? "border-charcoal/20 text-charcoal/80 hover:border-gold"
+                : "border-gold text-gold"
+            }`}
           >
             WhatsApp
           </a>
@@ -88,25 +96,25 @@ export default function Navbar() {
           aria-label={open ? "Close menu" : "Open menu"}
         >
           <span
-            className={`block h-px w-6 bg-ivory transition-all duration-300 ${
-              open ? "translate-y-[7px] rotate-45" : ""
-            }`}
+            className={`block h-px w-6 transition-all duration-300 ${
+              scrolled ? "bg-charcoal" : "bg-ivory"
+            } ${open ? "translate-y-[7px] rotate-45" : ""}`}
           />
           <span
-            className={`block h-px w-6 bg-ivory transition-all duration-300 ${
-              open ? "opacity-0" : ""
-            }`}
+            className={`block h-px w-6 transition-all duration-300 ${
+              scrolled ? "bg-charcoal" : "bg-ivory"
+            } ${open ? "opacity-0" : ""}`}
           />
           <span
-            className={`block h-px w-6 bg-ivory transition-all duration-300 ${
-              open ? "-translate-y-[7px] -rotate-45" : ""
-            }`}
+            className={`block h-px w-6 transition-all duration-300 ${
+              scrolled ? "bg-charcoal" : "bg-ivory"
+            } ${open ? "-translate-y-[7px] -rotate-45" : ""}`}
           />
         </button>
       </nav>
 
       <div
-        className={`fixed inset-0 z-40 flex flex-col items-center justify-center gap-10 bg-charcoal/98 backdrop-blur-xl transition-all duration-500 ${
+        className={`fixed inset-0 z-40 flex flex-col items-center justify-center gap-10 bg-ivory/90 backdrop-blur-2xl transition-all duration-500 ${
           open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"
         }`}
       >
@@ -118,7 +126,7 @@ export default function Navbar() {
               e.preventDefault();
               scrollTo(link.href);
             }}
-            className="font-display text-4xl text-ivory transition-colors hover:text-gold"
+            className="font-display text-4xl text-charcoal transition-colors hover:text-gold"
           >
             {link.label}
           </a>
@@ -127,7 +135,7 @@ export default function Navbar() {
           href="https://wa.me/917977653450?text=Hi!%20I'd%20like%20to%20discuss%20interior%20design%20for%20my%20home."
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 border border-gold px-10 py-4 font-body text-sm uppercase tracking-[0.2em] text-gold transition-colors hover:bg-gold hover:text-charcoal"
+          className="mt-4 border border-charcoal/20 px-10 py-4 font-body text-sm uppercase tracking-[0.2em] text-charcoal/80 transition-colors hover:border-gold hover:bg-gold hover:text-charcoal"
         >
           WhatsApp
         </a>
