@@ -37,18 +37,21 @@ export default function Hero() {
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
 
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
-        <p className="eyebrow mb-8 !text-saffron/70">
+        <p className="eyebrow mb-6 !text-saffron/70">
           भूमि मistry · Interior Design Studio · India
         </p>
         <h1 className="display max-w-5xl text-[11vw] leading-[0.95] text-ivory md:text-[6.5vw]">
           <span className="line-mask">
-            <span>Interior Designer — Transforming</span>
+            <span>Interior Designer </span>
           </span>
           <span className="line-mask">
-            <span className="italic text-gold">Empty Spaces Into Timeless Homes.</span>
+            <span className="italic text-gold">Transforming Empty Spaces </span>
+          </span>
+          <span className="line-mask">
+            <span>Into Timeless Homes.</span>
           </span>
         </h1>
-        <p className="mt-6 max-w-lg text-sm leading-relaxed text-ivory/50">
+        <p className="mt-3 max-w-lg text-sm leading-relaxed text-ivory/50">
           Rooted in Indian craft. Shaped for modern living.
         </p>
       </div>
