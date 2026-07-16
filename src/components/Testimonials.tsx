@@ -53,7 +53,7 @@ export default function Testimonials() {
       className="relative min-h-[100svh] overflow-hidden bg-charcoal"
       aria-label="Client words, in the rooms they live in"
     >
-      <img src="/assets/image-2.png" alt="" aria-hidden className="absolute inset-0 h-full w-full object-cover opacity-90" />
+      <img src="/assets/image-2.png" alt="Luxury living room with curved bouclé sofas and walnut staircase, home interior project" aria-hidden className="absolute inset-0 h-full w-full object-cover opacity-90" />
       <div className="absolute inset-0 bg-charcoal/35" />
 
       <div className="relative z-10 px-6 pt-24 md:px-16">

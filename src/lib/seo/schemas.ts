@@ -2,7 +2,7 @@ import { Location } from "./locations";
 import { Service } from "./services";
 import { FAQ } from "./faqs";
 
-const SITE_URL = "https://bhumi-mistry.vercel.app";
+const SITE_URL = "https://bhumimistry.in";
 const BUSINESS_NAME = "Bhumi Mistry Interiors";
 const BUSINESS_PHONE = "+917977653450";
 const BUSINESS_EMAIL = "studio@bhumimistry.in";
@@ -42,7 +42,8 @@ export function localBusinessSchema(location: Location) {
     sameAs: [
       "https://instagram.com/bhumimistry",
       "https://facebook.com/bhumimistry",
-      "https://houzz.in/bhumimistry",
+      "https://pinterest.com/bhumimistry",
+      "https://houzz.com/pro/bhumimistry",
     ],
   };
 }
@@ -119,7 +120,7 @@ export function organizationSchema() {
     name: BUSINESS_NAME,
     url: SITE_URL,
     logo: `${SITE_URL}/logo.png`,
-    description: "Premium residential interior design studio serving Mumbai, Thane, Navi Mumbai and all major cities across India.",
+    description: "Premium interior designer in Mumbai and Ahmedabad. Specialising in 1BHK, 2BHK and 3BHK home interiors, modular kitchens, wardrobes and complete home renovation across India.",
     contactPoint: {
       "@type": "ContactPoint",
       telephone: BUSINESS_PHONE,
@@ -146,7 +147,7 @@ export function websiteSchema() {
     "@id": `${SITE_URL}#website`,
     url: SITE_URL,
     name: BUSINESS_NAME,
-    description: "Premium residential interior design studio creating timeless homes across India.",
+    description: "Premium interior designer in Mumbai and Ahmedabad creating timeless homes across India.",
     potentialAction: {
       "@type": "SearchAction",
       target: {

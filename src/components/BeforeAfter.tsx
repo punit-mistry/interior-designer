@@ -60,7 +60,7 @@ export default function BeforeAfter() {
         {/* BEFORE — raw and dusty */}
         <img
           src="/assets/image-3.png"
-          alt=""
+          alt="Unfinished bedroom before renovation with dust and construction debris"
           aria-hidden
           className="absolute inset-0 h-full w-full object-cover"
           style={{ filter: `saturate(.5) brightness(${0.85 - warmth * 0.15})` }}

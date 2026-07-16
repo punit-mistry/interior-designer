@@ -10,26 +10,39 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
 
-const SITE_URL = "https://bhumi-mistry.vercel.app";
+const SITE_URL = "https://bhumimistry.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Bhumi Mistry — Luxury Interior Design Studio",
+    default: "Bhumi Mistry Interiors | Luxury Interior Designer in Ahmedabad & Mumbai",
     template: "%s | Bhumi Mistry Interiors",
   },
   description:
-    "Transforming empty spaces into timeless homes. Premium residential interior design across India — bespoke materials, warm light, and architecture that breathes.",
+    "Premium interior designer in Ahmedabad, Mumbai & Pune. We design timeless homes — 1BHK, 2BHK, 3BHK interiors, modular kitchens, and complete home renovation. Book a free consultation.",
+  alternates: {
+    canonical: "https://bhumimistry.in",
+  },
   openGraph: {
     siteName: "Bhumi Mistry Interiors",
     locale: "en_IN",
     type: "website",
+    url: "https://bhumimistry.in",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     images: "/og-image.png",
   },
+  keywords: [
+    "interior designer Mumbai",
+    "interior designer Ahmedabad",
+    "luxury interior design India",
+    "home interior designer",
+    "2BHK interior design",
+    "modular kitchen design",
+    "Bhumi Mistry Interiors",
+  ],
   robots: {
     index: true,
     follow: true,

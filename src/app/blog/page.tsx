@@ -2,10 +2,13 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Design Journal",
+  title: "Design Journal | Interior Design Blog by Bhumi Mistry Interiors",
   description:
-    "Insights, ideas, and behind-the-scenes stories from Bhumi Mistry Interiors — Indian interior design, material craft, and home transformation.",
+    "Insights from Mumbai and Ahmedabad's interior design studio — modular kitchen costs, small apartment tips, Vastu alternatives, and home transformation stories.",
   openGraph: { title: "Design Journal | Bhumi Mistry Interiors" },
+  alternates: {
+    canonical: "https://bhumimistry.in/blog",
+  },
 };
 
 const POSTS = [

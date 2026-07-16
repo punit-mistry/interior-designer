@@ -90,7 +90,7 @@ export default function Transformation() {
       aria-label="Scroll-controlled apartment transformation"
     >
       <img src="/assets/image-2.png" alt="Finished luxury living room with curved bouclé sofas and floating walnut staircase" className="tf-living absolute inset-0 h-full w-full object-cover" />
-      <img src="/assets/image-1.png" alt="" aria-hidden className="tf-raw absolute inset-0 h-full w-full object-cover" />
+      <img src="/assets/image-1.png" alt="Unfinished apartment shell with raw concrete walls and exposed wiring, before transformation" aria-hidden className="tf-raw absolute inset-0 h-full w-full object-cover" />
       <img src="/assets/image-3.png" alt="Serene bedroom with walnut headboard wall and warm cove lighting" className="tf-bedroom absolute inset-0 h-full w-full object-cover opacity-0" />
       <img src="/assets/image-4.png" alt="Kitchen with Calacatta marble island and brass pendant lights" className="tf-kitchen absolute inset-0 h-full w-full object-cover opacity-0" />
 

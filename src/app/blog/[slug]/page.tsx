@@ -187,11 +187,14 @@ export function generateMetadata({
 }): Metadata {
   const post = POSTS.find((p) => p.slug === params.slug);
   if (!post) return {};
+  const url = `https://bhumimistry.in/blog/${params.slug}`;
   return {
     title: post.title,
     description: post.excerpt ?? `Read about ${post.title} from Bhumi Mistry Interiors.`,
+    alternates: { canonical: url },
     openGraph: {
       title: `${post.title} | Bhumi Mistry Interiors`,
+      url,
       images: [{ url: "/og-image.png", width: 1200, height: 630 }],
     },
     twitter: { card: "summary_large_image", images: "/og-image.png" },
@@ -255,7 +258,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
   if (!post) return null;
 
   const paragraphs = post.content.split("\n\n");
-  const url = `https://bhumi-mistry.vercel.app/blog/${post.slug}`;
+  const url = `https://bhumimistry.in/blog/${post.slug}`;
 
   return (
     <main className="bg-ivory px-6 pb-28 pt-32 md:px-16 md:pb-40 md:pt-40">

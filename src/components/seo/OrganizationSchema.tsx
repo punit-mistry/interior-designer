@@ -1,12 +1,12 @@
 const schema = {
   "@context": "https://schema.org",
   "@type": ["Organization", "ProfessionalService"],
-  "@id": "https://bhumi-mistry.vercel.app#organization",
+  "@id": "https://bhumimistry.in#organization",
   name: "Bhumi Mistry Interiors",
-  url: "https://bhumi-mistry.vercel.app",
-  logo: "https://bhumi-mistry.vercel.app/logo.png",
+  url: "https://bhumimistry.in",
+  logo: "https://bhumimistry.in/logo.png",
   description:
-    "Premium residential interior design studio creating timeless homes across India. Specialising in 1BHK, 2BHK and 3BHK interiors, modular kitchens, wardrobes and home renovation.",
+    "Premium interior designer in Mumbai and Ahmedabad. Specialising in 1BHK, 2BHK and 3BHK home interiors, modular kitchens, wardrobes and complete home renovation across India.",
   foundingDate: "2017",
   founder: { "@type": "Person", name: "Bhumi Mistry" },
   contactPoint: [
@@ -20,14 +20,15 @@ const schema = {
   ],
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Ahmedabad",
-    addressRegion: "Gujarat",
+    addressLocality: "Mumbai",
+    addressRegion: "Maharashtra",
     addressCountry: "IN",
   },
   sameAs: [
     "https://instagram.com/bhumimistry",
     "https://facebook.com/bhumimistry",
-    "https://houzz.in/bhumimistry",
+    "https://pinterest.com/bhumimistry",
+    "https://houzz.com/pro/bhumimistry",
   ],
   knowsAbout: [
     "Interior Design",

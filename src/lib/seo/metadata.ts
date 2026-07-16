@@ -3,7 +3,7 @@ import { getLocationBySlug } from "./locations";
 import { getServiceBySlug } from "./services";
 
 const SITE_NAME = "Bhumi Mistry Interiors";
-const SITE_URL = "https://bhumi-mistry.vercel.app";
+const SITE_URL = "https://bhumimistry.in";
 
 export function generateSEOMetadata(serviceSlug: string, locationSlug: string): Metadata {
   const location = getLocationBySlug(locationSlug);
