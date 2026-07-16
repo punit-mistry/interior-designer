@@ -1,10 +1,10 @@
 const schema = {
   "@context": "https://schema.org",
   "@type": ["Organization", "ProfessionalService"],
-  "@id": "https://bhumimistry.in#organization",
+  "@id": "https://bhumi-mistry.vercel.app#organization",
   name: "Bhumi Mistry Interiors",
-  url: "https://bhumimistry.in",
-  logo: "https://bhumimistry.in/logo.png",
+  url: "https://bhumi-mistry.vercel.app",
+  logo: "https://bhumi-mistry.vercel.app/logo.png",
   description:
     "Premium interior designer in Mumbai and Ahmedabad. Specialising in 1BHK, 2BHK and 3BHK home interiors, modular kitchens, wardrobes and complete home renovation across India.",
   foundingDate: "2017",

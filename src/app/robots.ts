@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://bhumimistry.in/sitemap.xml",
+    sitemap: "https://bhumi-mistry.vercel.app/sitemap.xml",
   };
 }

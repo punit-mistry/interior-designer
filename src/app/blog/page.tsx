@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Insights from Mumbai and Ahmedabad's interior design studio — modular kitchen costs, small apartment tips, Vastu alternatives, and home transformation stories.",
   openGraph: { title: "Design Journal | Bhumi Mistry Interiors" },
   alternates: {
-    canonical: "https://bhumimistry.in/blog",
+    canonical: "https://bhumi-mistry.vercel.app/blog",
   },
 };
 

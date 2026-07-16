@@ -10,7 +10,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
 
-const SITE_URL = "https://bhumimistry.in";
+const SITE_URL = "https://bhumi-mistry.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   description:
     "Premium interior designer in Ahmedabad, Mumbai & Pune. We design timeless homes — 1BHK, 2BHK, 3BHK interiors, modular kitchens, and complete home renovation. Book a free consultation.",
   alternates: {
-    canonical: "https://bhumimistry.in",
+    canonical: "https://bhumi-mistry.vercel.app",
   },
   openGraph: {
     siteName: "Bhumi Mistry Interiors",
     locale: "en_IN",
     type: "website",
-    url: "https://bhumimistry.in",
+    url: "https://bhumi-mistry.vercel.app",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {

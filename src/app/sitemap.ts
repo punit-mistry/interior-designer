@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { LOCATION_SLUGS } from "@/lib/seo/locations";
 import { SERVICE_SLUGS } from "@/lib/seo/services";
 
-const SITE_URL = "https://bhumimistry.in";
+const SITE_URL = "https://bhumi-mistry.vercel.app";
 
 const BLOG_SLUGS = [
   "small-apartment-interior-design-mumbai",
