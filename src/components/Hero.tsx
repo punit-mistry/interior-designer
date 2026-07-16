@@ -42,17 +42,14 @@ export default function Hero() {
         </p>
         <h1 className="display max-w-5xl text-[11vw] leading-[0.95] text-ivory md:text-[6.5vw]">
           <span className="line-mask">
-            <span>Interior Designer</span>
+            <span>Interior Designer — Transforming</span>
           </span>
           <span className="line-mask">
-            <span className="italic text-gold">Transforming Empty Spaces</span>
-          </span>
-          <span className="line-mask">
-            <span>Into Timeless Homes.</span>
+            <span className="italic text-gold">Empty Spaces Into Timeless Homes.</span>
           </span>
         </h1>
         <p className="mt-6 max-w-lg text-sm leading-relaxed text-ivory/50">
-          Premium interior design in Ahmedabad, Mumbai &amp; Pune. Rooted in Indian craft. Shaped for modern living.
+          Rooted in Indian craft. Shaped for modern living.
         </p>
       </div>
 
